@@ -1,14 +1,10 @@
 body
 {
-background-color:#6F605A;
 font-family:Arial, Helvetica, sans-serif;
 padding:0;
 font-size:12px;
 margin:0px auto auto auto;
 color:#000000;
-}
-a{
-color:#f8981d;
 }
 .clear{
 clear:both;
@@ -35,15 +31,15 @@ font-size:11px;
 
 }
 #wrap{
-width:900px;
+width:100%;
 height: auto;
 margin:auto;
 background-color:#FFFFFF;
 }
 .header{
-width:900px;
+width:100%;
 height:181px;
-background:url(images/header.jpg) no-repeat center;
+background:url(images/header1.jpg) no-repeat center;
 }
 .logo{
 padding:50px 0 0 130px;
@@ -116,22 +112,26 @@ padding:2px 2px 0 2px;
 
 /*------------------------------------center content--------------------*/
 .center_content{
-width:900px;
 padding:0px 0 0 0;
-background:url(images/center_bg.gif) repeat-y center;
+height:100%;
 }
 .left_content{
-width:490px;
+width: 220px;
 float:left;
 padding:20px 0 20px 20px;
 }
 .right_content{
-width:370px;
+width:960px;
 float:left;
 padding:20px 0 20px 20px;
 }
+.right_content_change{
+width:960px;
+height:100%;
+padding:20px 0 20px 20px;
+}
 .title{
-color:#734633;
+color:#4089E9;
 padding:0px;
 float:left;
 font-size:19px;
@@ -174,7 +174,7 @@ padding:10px 0 0 0;
 .feat_prod_box{
 padding:10px 0 10px 10px;
 margin:0 20px 20px 0;
-border-bottom:1px #b2b2b2 dashed;
+border-bottom:1px #b2b2b2 solid;
 clear:both;
 }
 .feat_prod_box_details{
@@ -373,12 +373,11 @@ color:#990000;
 }
 /*---------------contact_form------------------*/
 .contact_form{
-width:355px;
+width:450px;
 float:left;
 padding:25px;
 margin:20px 0 0 15px;
 _margin:20px 0 0 5px;
-border:1px #DFD1D2 dashed;
 position:relative;
 }
 .form_row{
@@ -470,7 +469,7 @@ top:-11px;
 left:7px;
 width:auto;
 height:20px;
-background-color:#795636;
+background-color:#4089E9;
 text-align:center;
 padding:0 7px 0 7px;
 color:#FFFFFF;
@@ -536,9 +535,8 @@ color: #ccc;
 }
 /*---------------footer------------------------*/
 .footer{
-height:100px;
-border-top:1px #b2b2b2 dashed;
-background:url(images/footer_bg.gif) no-repeat bottom;
+height:60px;
+background:url(images/footer_bg.png) no-repeat bottom;
 }
 .left_footer{
 float:left;
@@ -553,5 +551,22 @@ text-decoration:none;
 padding:0 5px 0 5px;
 color:#afaeaf;
 }
+.nav_mylib {
+    float: right;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+li#nav_mylibhome {
+    font-weight: bold;
+    display: block;
+    background-color: #eee;
+}
+.li-background {
+    background-color: #eee;
+}
+/*-----------------------------searching------------------*/
 
-
+.searching {
+    width:900px;
+    padding: 100px;
+    }
